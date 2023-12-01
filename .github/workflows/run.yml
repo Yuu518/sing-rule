@@ -16,7 +16,7 @@ jobs:
         run: |
           echo "RELEASE_NAME=Released on $(date +%Y%m%d%H%M)" >> $GITHUB_ENV
           echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
-          echo "CHINA_DOMAINS_URL=https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf" >> $GITHUB_ENV
+          echo "CHINA_DOMAINS_URL=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Domain.txt" >> $GITHUB_ENV
           echo "GOOGLE_DOMAINS_URL=https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/google.china.conf" >> $GITHUB_ENV
           echo "APPLE_DOMAINS_URL=https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/apple.china.conf" >> $GITHUB_ENV
           echo "EASYLISTCHINA_EASYLIST_REJECT_URL=https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt" >> $GITHUB_ENV
@@ -35,7 +35,7 @@ jobs:
       - name: Checkout the "hidden" branch of this repo
         uses: actions/checkout@v3
         with:
-          ref: hidden
+          ref: src
 
       - name: Checkout Loyalsoldier/domain-list-custom
         uses: actions/checkout@v3
@@ -204,7 +204,7 @@ jobs:
           NO_SKIP: true
         run: |
           mkdir -p ./sing-rule/geo
-          cp ./geoip.dat ./sing-geosite/geosite.db ./convert/convert.sh ./sing-rule/geo/ 
+          cp ./geoip.dat ./sing-geosite/geosite.db ./src/convert.sh ./sing-rule/geo/ 
           cd ./sing-rule/geo
           wget https://github.com/SagerNet/sing-box/releases/download/v1.8.0-alpha.7/sing-box-1.8.0-alpha.7-linux-amd64.tar.gz -O sing-box.tar.gz && tar zxvf sing-box.tar.gz && mv sing-box-1.8.0-alpha.7-linux-amd64/sing-box ./ && rm -r sing-box-1.8.0-alpha.7-linux-amd64
           wget https://github.com/IrineSistiana/mosdns/releases/download/v4.5.3/mosdns-linux-amd64.zip -O mosdns.zip && unzip mosdns.zip
