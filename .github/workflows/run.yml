@@ -16,7 +16,7 @@ jobs:
         run: |
           echo "RELEASE_NAME=Released on $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M')" >> $GITHUB_ENV
           echo "TAG_NAME=$(date +%Y%m%d%H%M)" >> $GITHUB_ENV
-          echo "CHINA_DOMAINS_URL=https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/accelerated-domains.china.conf" >> $GITHUB_ENV
+          echo "CHINA_DOMAINS_URL=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Domain.txt" >> $GITHUB_ENV
           echo "GOOGLE_DOMAINS_URL=https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/google.china.conf" >> $GITHUB_ENV
           echo "APPLE_DOMAINS_URL=https://raw.githubusercontent.com/felixonmars/dnsmasq-china-list/master/apple.china.conf" >> $GITHUB_ENV
           echo "EASYLISTCHINA_EASYLIST_REJECT_URL=https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt" >> $GITHUB_ENV
@@ -74,8 +74,9 @@ jobs:
 
       - name: Get and add direct domains into temp-direct.txt file
         run: |
-          curl -sSL $CHINA_DOMAINS_URL | perl -ne '/^server=\/([^\/]+)\// && print "$1\n"' > temp-direct.txt
-          curl -sSL ${CUSTOM_DIRECT} | perl -ne '/^(domain):([^:]+)(\n$|:@.+)/ && print "$2\n"' >> temp-direct.txt
+          # curl -sSL $CHINA_DOMAINS_URL | perl -ne '/^server=\/([^\/]+)\// && print "$1\n"' > temp-direct.txt
+          curl -sSL ${CHINA_DOMAINS_URL} | sed '/^\s*#/d' | sed '/^[^\.]/ s/^/full:/' |  sed 's/^\.\([^.]*\)/\1/' > temp-direct.txt 
+          # curl -sSL ${CUSTOM_DIRECT} | perl -ne '/^(domain):([^:]+)(\n$|:@.+)/ && print "$2\n"' >> temp-direct.txt
 
       - name: Get and add proxy domains into temp-proxy.txt file
         run: |
