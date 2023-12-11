@@ -174,7 +174,7 @@ jobs:
         run: |
           cd sing-geosite || exit 1
           cp ../custom/publish/geosite.dat ./
-          go run -v . geosite.dat geosite.db singbox_rule_set
+          go run -v . geosite.dat geosite.db
           sha256sum geosite.db > geosite.db.sha256sum
       - name: Checkout SagerNet/sing-geoip
         uses: actions/checkout@v4
@@ -190,20 +190,33 @@ jobs:
           sed -i 's/Dreamacro\/maxmind-geoip/Loyalsoldier\/geoip/g' main.go
           go run -v .
           sha256sum geoip.db > geoip.db.sha256sum
+
+      - name: Convert geo to sing-rule-set
+        env:
+          NO_SKIP: true
+        run: |
+          mkdir -p ./sing-rule/geo
+          cp ./geoip.dat ./geosite.db ./src/convert.sh ./sing-rule/geo/ 
+          cd ./sing-rule/geo
+          wget https://github.com/SagerNet/sing-box/releases/download/v1.8.0-alpha.1/sing-box-1.8.0-alpha.1-linux-amd64.tar.gz -O sing-box.tar.gz && tar zxvf sing-box.tar.gz && mv sing-box-1.8.0-alpha.1-linux-amd64/sing-box ./ && rm -r sing-box-1.8.0-alpha.1-linux-amd64
+          wget https://github.com/IrineSistiana/mosdns/releases/download/v4.5.3/mosdns-linux-amd64.zip -O mosdns.zip && unzip mosdns.zip
+          chmod 755 mosdns sing-box convert.sh && ./convert.sh
+          rm mosdns* sing-box* convert.sh geoip.dat geosite.db LICENSE README.md config.yaml
+          
       - name: Move files
         run: |
-          mkdir -p publish/singbox_site_rule_set
-          mkdir -p publish/singbox_ip_rule_set
+          # mkdir -p publish/singbox_site_rule_set
+          # mkdir -p publish/singbox_ip_rule_set
           install -Dp ./geoip.dat ./publish/geoip.dat
           install -Dp ./geoip.dat.sha256sum ./publish/geoip.dat.sha256sum
           install -Dp ./custom/publish/geosite.dat ./publish/geosite.dat
           install -Dp ./custom/publish/geosite.dat.sha256sum ./publish/geosite.dat.sha256sum
           install -Dp ./sing-geosite/geosite.db ./publish/geosite.db
           install -Dp ./sing-geosite/geosite.db.sha256sum ./publish/geosite.db.sha256sum
-          install -Dp ./sing-geosite/singbox_rule_set/* ./publish/singbox_site_rule_set/
+          # install -Dp ./sing-geosite/singbox_rule_set/* ./publish/singbox_site_rule_set/
           install -Dp ./sing-geoip/geoip.db ./publish/geoip.db
           install -Dp ./sing-geoip/geoip.db.sha256sum ./publish/geoip.db.sha256sum
-          install -Dp ./sing-geoip/rule-set/* ./publish/singbox_ip_rule_set/
+          # install -Dp ./sing-geoip/rule-set/* ./publish/singbox_ip_rule_set/
           install -p {proxy,direct,reject}-tld-list.txt ./publish/
           install -p {proxy,direct,reject}-list.txt ./publish/
           install -p {china-list,apple-cn,google-cn,gfw,win-spy,win-update,win-extra}.txt ./publish/
@@ -219,3 +232,16 @@ jobs:
           git add .
           git commit -m "Update Release"
           git push -f -u origin release
+
+      - name: Git push assets to "sing-rule" branch
+        run: |
+            cd sing-rule || exit 1
+            ls
+            git init
+            git config --local user.name "github-actions[bot]"
+            git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git checkout -b sing
+            git add .
+            git commit -m "Released on ${{ env.BUILDTIME }}"
+            git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+            git push -f -u origin sing          
