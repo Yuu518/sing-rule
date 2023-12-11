@@ -192,7 +192,7 @@ jobs:
           sha256sum geoip.db > geoip.db.sha256sum
       - name: Move files
         run: |
-          mkdir -p publish/singbox_rule_set
+          mkdir -p publish/singbox_site_rule_set
           mkdir -p publish/singbox_ip_rule_set
           install -Dp ./geoip.dat ./publish/geoip.dat
           install -Dp ./geoip.dat.sha256sum ./publish/geoip.dat.sha256sum
@@ -200,7 +200,7 @@ jobs:
           install -Dp ./custom/publish/geosite.dat.sha256sum ./publish/geosite.dat.sha256sum
           install -Dp ./sing-geosite/geosite.db ./publish/geosite.db
           install -Dp ./sing-geosite/geosite.db.sha256sum ./publish/geosite.db.sha256sum
-          install -Dp ./sing-geosite/singbox_rule_set/* ./publish/singbox_rule_set/
+          install -Dp ./sing-geosite/singbox_rule_set/* ./publish/singbox_site_rule_set/
           install -Dp ./sing-geoip/geoip.db ./publish/geoip.db
           install -Dp ./sing-geoip/geoip.db.sha256sum ./publish/geoip.db.sha256sum
           install -Dp ./sing-geoip/rule-set/* ./publish/singbox_ip_rule_set/
