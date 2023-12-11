@@ -172,6 +172,7 @@ jobs:
         run: |
           cd custom || exit 1
           go run ./ --datapath=../community/data
+          sha256sum publish/geosite.dat > publish/geosite.dat.sha256sum
 
       - name: Checkout CHIZI-0618/sing-geosite
         uses: actions/checkout@v3
@@ -179,13 +180,14 @@ jobs:
           repository: CHIZI-0618/sing-geosite
           path: sing-geosite
 
-      - name: Build geosite.db file
+      - name: Build geosite.db
         env:
           NO_SKIP: true
         run: |
           cd sing-geosite || exit 1
           cp ../custom/publish/geosite.dat ./
           go run -v . geosite.dat geosite.db
+          sha256sum geosite.db > geosite.db.sha256sum
 
       - name: Checkout SagerNet/sing-geoip
         uses: actions/checkout@v3
@@ -193,13 +195,14 @@ jobs:
           repository: SagerNet/sing-geoip
           path: sing-geoip
 
-      - name: Build geoip.db file
+      - name: Build geoip.db
         env:
           NO_SKIP: true
         run: |
           cd sing-geoip || exit 1
           sed -i 's/Dreamacro\/maxmind-geoip/Loyalsoldier\/geoip/g' main.go
           go run -v .
+          sha256sum geoip.db > geoip.db.sha256sum
 
       - name: Convert geo to sing-rule-set
         env:
@@ -213,25 +216,24 @@ jobs:
           chmod 755 mosdns sing-box convert.sh && ./convert.sh
           rm mosdns* sing-box* convert.sh geoip.dat geosite.db LICENSE README.md config.yaml
 
-      - name: Move and zip files and generate sha256 hash
+      - name: Move files
         run: |
-          mkdir -p ./publish/
-          install -Dp ./geoip.dat ./publish/
-          install -Dp ./geoip.dat.sha256sum ./publish/
-          install -Dp ./custom/publish/geosite.dat ./publish/
-          install -Dp ./sing-geosite/geosite.db ./publish/
-          install -Dp ./sing-geosite/geosite-v2fly.db ./publish/
-          install -Dp ./sing-geoip/geoip.db ./publish/
+          # mkdir -p publish/singbox_rule_set
+          # mkdir -p publish/singbox_ip_rule_set
+          install -Dp ./geoip.dat ./publish/geoip.dat
+          install -Dp ./geoip.dat.sha256sum ./publish/geoip.dat.sha256sum
+          install -Dp ./custom/publish/geosite.dat ./publish/geosite.dat
+          install -Dp ./custom/publish/geosite.dat.sha256sum ./publish/geosite.dat.sha256sum
+          install -Dp ./sing-geosite/geosite.db ./publish/geosite.db
+          install -Dp ./sing-geosite/geosite.db.sha256sum ./publish/geosite.db.sha256sum
+          # install -Dp ./sing-geosite/singbox_rule_set/* ./publish/singbox_rule_set/
+          install -Dp ./sing-geoip/geoip.db ./publish/geoip.db
+          install -Dp ./sing-geoip/geoip.db.sha256sum ./publish/geoip.db.sha256sum
+          # install -Dp ./sing-geoip/rule-set/* ./publish/singbox_ip_rule_set/
           install -p {proxy,direct,reject}-tld-list.txt ./publish/
           install -p {proxy,direct,reject}-list.txt ./publish/
-          install -p hosts ./publish/
-          install -p {apple-cn,google-cn,gfw,win-spy,win-update,win-extra}.txt ./publish/
-          cd ./publish || exit 1
-          zip rules.zip {proxy,direct,reject}-list.txt geoip.dat geosite.dat geosite.db geosite-v2fly.db geoip.db
-          sha256sum geosite.dat > geosite.dat.sha256sum
-          sha256sum geosite.db > geosite.db.sha256sum
-          sha256sum geoip.db > geoip.db.sha256sum
-          sha256sum rules.zip > rules.zip.sha256sum
+          install -p {china-list,apple-cn,google-cn,gfw,win-spy,win-update,win-extra}.txt ./publish/
+          install -p hosts ./publish/hosts
 
       - name: Release and upload assets
         uses: svenstaro/upload-release-action@v2
