@@ -198,7 +198,7 @@ jobs:
           NO_SKIP: true
         run: |
           mkdir -p ./rule_set/geo
-          cp ./geoip.dat ./geosite.db ./convert/convert.sh ./rule_set/geo/ 
+          cp ./geoip.dat ./sing-geosite/geosite.db ./convert/convert.sh ./rule_set/geo/ 
           cd ./rule_set/geo
           wget https://github.com/SagerNet/sing-box/releases/download/v1.8.0-alpha.1/sing-box-1.8.0-alpha.1-linux-amd64.tar.gz -O sing-box.tar.gz && tar zxvf sing-box.tar.gz && mv sing-box-1.8.0-alpha.1-linux-amd64/sing-box ./ && rm -r sing-box-1.8.0-alpha.1-linux-amd64
           wget https://github.com/IrineSistiana/mosdns/releases/download/v4.5.3/mosdns-linux-amd64.zip -O mosdns.zip && unzip mosdns.zip
