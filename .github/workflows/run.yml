@@ -153,8 +153,10 @@ jobs:
           cp ./community/data/category-ads-all reject-list.txt
           awk '{print "0.0.0.0 " $0}' reject-list.txt > hosts
 
-      - name: Create `google-cn`、`apple-cn`、`gfw` lists
+      - name: Create `china-list`、`google-cn`、`apple-cn`、`gfw` lists
         run: |
+          curl -sSL $CHINA_DOMAINS_URL | perl -ne '/^server=\/([^\/]+)\// && print "$1\n"' > ./community/data/china-list
+          curl -sSL $CHINA_DOMAINS_URL | perl -ne '/^server=\/([^\/]+)\// && print "$1\n"' > china-list.txt
           curl -sSL $GOOGLE_DOMAINS_URL | perl -ne '/^server=\/([^\/]+)\// && print "full:$1\n"' > ./community/data/google-cn
           curl -sSL $GOOGLE_DOMAINS_URL | perl -ne '/^server=\/([^\/]+)\// && print "full:$1\n"' > google-cn.txt
           curl -sSL $APPLE_DOMAINS_URL | perl -ne '/^server=\/([^\/]+)\// && print "full:$1\n"' > ./community/data/apple-cn
