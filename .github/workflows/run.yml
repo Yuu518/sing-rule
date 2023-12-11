@@ -223,6 +223,7 @@ jobs:
           install -p {proxy,direct,reject}-list.txt ./publish/
           install -p {china-list,apple-cn,google-cn,gfw,win-spy,win-update,win-extra}.txt ./publish/
           install -p hosts ./publish/hosts
+          
       - name: Git push assets to "release" branch
         run: |
           cd publish || exit 1
@@ -232,10 +233,10 @@ jobs:
           git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           git branch -M release
           git add .
-          git commit -m "Update Release"
+          git commit -m "Released on ${{ env.RELEASE_NAME }}"
           git push -f -u origin release
 
-      - name: Git push assets to "sing-rule" branch
+      - name: Git push assets to "rule_set" branch
         run: |
             cd rule_set || exit 1
             ls
@@ -244,6 +245,6 @@ jobs:
             git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git checkout -b rule_set
             git add .
-            git commit -m "Released on ${{ env.BUILDTIME }}"
+            git commit -m "Released on ${{ env.RELEASE_NAME }}"
             git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
             git push -f -u origin rule_set        
