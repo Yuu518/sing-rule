@@ -170,7 +170,7 @@ jobs:
           repository: CHIZI-0618/sing-geosite
           path: sing-geosite
 
-      - name: Build geosite.db and srs files
+      - name: Build geosite.db
         env:
           NO_SKIP: true
         run: |
@@ -184,7 +184,7 @@ jobs:
           repository: SagerNet/sing-geoip
           path: sing-geoip
 
-      - name: Build geoip.db and srs files
+      - name: Build geoip.db
         env:
           NO_SKIP: true
         run: |
@@ -197,9 +197,9 @@ jobs:
         env:
           NO_SKIP: true
         run: |
-          mkdir -p ./rule_set/geo
-          cp ./geoip.dat ./sing-geosite/geosite.db ./convert/convert.sh ./rule_set/geo/ 
-          cd ./rule_set/geo
+          mkdir -p ./rule_set
+          cp ./geoip.dat ./sing-geosite/geosite.db ./convert/convert.sh ./rule_set
+          cd ./rule_set
           wget https://github.com/SagerNet/sing-box/releases/download/v1.8.0-alpha.1/sing-box-1.8.0-alpha.1-linux-amd64.tar.gz -O sing-box.tar.gz && tar zxvf sing-box.tar.gz && mv sing-box-1.8.0-alpha.1-linux-amd64/sing-box ./ && rm -r sing-box-1.8.0-alpha.1-linux-amd64
           wget https://github.com/IrineSistiana/mosdns/releases/download/v4.5.3/mosdns-linux-amd64.zip -O mosdns.zip && unzip mosdns.zip
           chmod 755 mosdns sing-box convert.sh && ./convert.sh
@@ -242,8 +242,8 @@ jobs:
             git init
             git config --local user.name "github-actions[bot]"
             git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git checkout -b sing
+            git checkout -b rule_set
             git add .
             git commit -m "Released on ${{ env.BUILDTIME }}"
             git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
-            git push -f -u origin sing          
+            git push -f -u origin rule_set        
