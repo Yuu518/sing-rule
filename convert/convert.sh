@@ -15,7 +15,7 @@ done
 list=($(./sing-box geosite list | sed 's/ (.*)$//g'))
 mkdir -p rule_set_site
 for ((i = 0; i < ${#list[@]}; i++)); do
-	./sing-box geosite export ${list[i]} -o ./geosite/${list[i]}.json
+	./sing-box geosite export ${list[i]} -o ./rule_set_site/${list[i]}.json
 	./sing-box rule-set compile ./rule_set_site/${list[i]}.json -o ./rule_set_site/${list[i]}.srs
 done
 
