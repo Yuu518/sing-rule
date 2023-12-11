@@ -197,9 +197,9 @@ jobs:
         env:
           NO_SKIP: true
         run: |
-          mkdir -p ./sing-rule/geo
-          cp ./geoip.dat ./geosite.db ./src/convert.sh ./sing-rule/geo/ 
-          cd ./sing-rule/geo
+          mkdir -p ./rule_set/geo
+          cp ./geoip.dat ./geosite.db ./convert/convert.sh ./rule_set/geo/ 
+          cd ./rule_set/geo
           wget https://github.com/SagerNet/sing-box/releases/download/v1.8.0-alpha.1/sing-box-1.8.0-alpha.1-linux-amd64.tar.gz -O sing-box.tar.gz && tar zxvf sing-box.tar.gz && mv sing-box-1.8.0-alpha.1-linux-amd64/sing-box ./ && rm -r sing-box-1.8.0-alpha.1-linux-amd64
           wget https://github.com/IrineSistiana/mosdns/releases/download/v4.5.3/mosdns-linux-amd64.zip -O mosdns.zip && unzip mosdns.zip
           chmod 755 mosdns sing-box convert.sh && ./convert.sh
@@ -237,7 +237,7 @@ jobs:
 
       - name: Git push assets to "sing-rule" branch
         run: |
-            cd sing-rule || exit 1
+            cd rule_set || exit 1
             ls
             git init
             git config --local user.name "github-actions[bot]"
