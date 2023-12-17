@@ -155,7 +155,7 @@ jobs:
           curl -sSL $WIN_EXTRA | grep "0.0.0.0" | awk '{print $2}' > ./community/data/win-extra
           curl -sSL $WIN_EXTRA | grep "0.0.0.0" | awk '{print $2}' > win-extra.txt
 
-          echo stripe.com >> ./community/data/openai
+          echo stripe.com >> ./community/data/openai && echo segment.io >> ./community/data/openai
           
       - name: Build geosite.dat file
         run: |
