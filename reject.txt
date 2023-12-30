@@ -1,12 +1,4 @@
 t-dsp.pinduoduo.com
 images.pinduoduo.com
-log.aliyuncs.com
-sm.cn
-byteimg.com
-wtzw.com
-zskwai.com
-video.yximgs.com
-a.market.xiaomi.com
-adVideo
 
 
