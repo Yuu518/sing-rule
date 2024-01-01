@@ -105,7 +105,6 @@ jobs:
           cat proxy.txt >> temp-proxy.txt
           cat direct.txt >> temp-direct.txt
           cat reject.txt >> temp-reject.txt
-          cat blocked_hosts.txt >> temp-reject.txt
           
       - name: Sort and generate redundant lists
         run: |
@@ -172,6 +171,7 @@ jobs:
           curl -sSL $WIN_EXTRA | grep "0.0.0.0" | awk '{print $2}' > win-extra.txt
 
           echo stripe.com >> ./community/data/openai && echo segment.io >> ./community/data/openai
+          cat AdClose.txt >> ./community/data/adclose
           
       - name: Build geosite.dat file
         run: |
