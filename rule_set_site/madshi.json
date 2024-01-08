@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "madshi.net",
+        "madvr.com",
+        "madvr.net",
+        "madvrlabs.llc"
+      ],
+      "domain_suffix": [
+        ".madshi.net",
+        ".madvr.com",
+        ".madvr.net",
+        ".madvrlabs.llc"
+      ]
+    }
+  ]
+}

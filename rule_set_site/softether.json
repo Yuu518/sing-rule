@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "softether.org",
+        "softether-download.com"
+      ],
+      "domain_suffix": [
+        ".softether.org",
+        ".softether-download.com"
+      ]
+    }
+  ]
+}

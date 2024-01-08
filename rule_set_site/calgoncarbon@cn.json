@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "calgon.cn",
+      "domain_suffix": ".calgon.cn"
+    }
+  ]
+}

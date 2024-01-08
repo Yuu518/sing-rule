@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "ads3-normal-hl.zijieapi.com",
+        "ads5-normal-hl.zijieapi.com",
+        "log3-applog-hl.fqnovel.com",
+        "log5-applog-hl.fqnovel.com",
+        "p3-ad-sign.byteimg.com",
+        "p6-ad-sign.byteimg.com",
+        "p9-ad-sign.byteimg.com",
+        "rtlog3-applog-hl.fqnovel.com",
+        "rtlog5-applog-hl.fqnovel.com",
+        "bds.snssdk.com",
+        "ctobsnssdk.com",
+        "dig.bdurl.net",
+        "extlog.snssdk.com",
+        "i.snssdk.com",
+        "is.snssdk.com",
+        "mcs.snssdk.com",
+        "pangolin.snssdk.com",
+        "pangolin-sdk-toutiao.com",
+        "pglstatp-toutiao.com",
+        "sf3-ttcdn-tos.pstatp.com"
+      ],
+      "domain_suffix": [
+        ".bds.snssdk.com",
+        ".ctobsnssdk.com",
+        ".dig.bdurl.net",
+        ".extlog.snssdk.com",
+        ".i.snssdk.com",
+        ".is.snssdk.com",
+        ".mcs.snssdk.com",
+        ".pangolin.snssdk.com",
+        ".pangolin-sdk-toutiao.com",
+        ".pglstatp-toutiao.com",
+        ".sf3-ttcdn-tos.pstatp.com"
+      ]
+    }
+  ]
+}

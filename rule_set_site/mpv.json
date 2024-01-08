@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "mpv.io",
+      "domain_suffix": ".mpv.io"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "neuralink.com",
+      "domain_suffix": ".neuralink.com"
+    }
+  ]
+}

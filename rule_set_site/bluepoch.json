@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "bluepoch.com",
+        "sl916.com"
+      ],
+      "domain_suffix": [
+        ".bluepoch.com",
+        ".sl916.com"
+      ]
+    }
+  ]
+}

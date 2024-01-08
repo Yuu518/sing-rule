@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "brilliant.org",
+      "domain_suffix": ".brilliant.org"
+    }
+  ]
+}

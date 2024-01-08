@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "tiancity.com",
+        "tiancitycdn.com"
+      ],
+      "domain_suffix": [
+        ".tiancity.com",
+        ".tiancitycdn.com"
+      ]
+    }
+  ]
+}

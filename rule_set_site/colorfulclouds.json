@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "caiyunai.com",
+        "caiyunapp.com"
+      ],
+      "domain_suffix": [
+        ".caiyunai.com",
+        ".caiyunapp.com"
+      ]
+    }
+  ]
+}

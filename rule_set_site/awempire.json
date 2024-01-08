@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "awempire.com",
+        "dditsadn.com",
+        "dditscdn.com",
+        "docleradn.com",
+        "doclercdn.com"
+      ],
+      "domain_suffix": [
+        ".awempire.com",
+        ".dditsadn.com",
+        ".dditscdn.com",
+        ".docleradn.com",
+        ".doclercdn.com"
+      ]
+    }
+  ]
+}

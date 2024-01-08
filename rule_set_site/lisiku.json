@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "lisiku.com",
+        "lisiku1.com"
+      ],
+      "domain_suffix": [
+        ".lisiku.com",
+        ".lisiku1.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "wikihow.com",
+      "domain_suffix": ".wikihow.com"
+    }
+  ]
+}

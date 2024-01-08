@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "cnmstl.net",
+        "fofa.so",
+        "t00ls.cc",
+        "t00ls.net",
+        "tools.team"
+      ],
+      "domain_suffix": [
+        ".cnmstl.net",
+        ".fofa.so",
+        ".t00ls.cc",
+        ".t00ls.net",
+        ".tools.team"
+      ]
+    }
+  ]
+}

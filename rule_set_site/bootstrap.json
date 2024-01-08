@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "bootstrapcdn.com",
+        "getbootstrap.com"
+      ],
+      "domain_suffix": [
+        ".bootstrapcdn.com",
+        ".getbootstrap.com"
+      ]
+    }
+  ]
+}

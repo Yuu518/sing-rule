@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "saraba1st.com",
+      "domain_suffix": ".saraba1st.com"
+    }
+  ]
+}

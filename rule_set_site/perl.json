@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "perl.org",
+        "cpan.org",
+        "metacpan.org"
+      ],
+      "domain_suffix": [
+        ".perl.org",
+        ".cpan.org",
+        ".metacpan.org"
+      ]
+    }
+  ]
+}

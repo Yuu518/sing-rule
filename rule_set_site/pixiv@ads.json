@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "ads-pixiv.net",
+      "domain_suffix": ".ads-pixiv.net"
+    }
+  ]
+}

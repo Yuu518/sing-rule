@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "ad.intl.xiaomi.com",
+        "ad.mi.com",
+        "ad.xiaomi.com",
+        "ad1.xiaomi.com",
+        "admob.xiaomi.com",
+        "adv.sec.intl.miui.com",
+        "adv.sec.miui.com",
+        "misc.in.duokanbox.com",
+        "mistat.xiaomi.com",
+        "tjqonline.cn",
+        "tracking.miui.com",
+        "ad.hpplay.cn",
+        "adeng.hpplay.cn",
+        "kuyun.com",
+        "umeng.com"
+      ],
+      "domain_suffix": [
+        ".ad.intl.xiaomi.com",
+        ".ad.mi.com",
+        ".ad.xiaomi.com",
+        ".ad1.xiaomi.com",
+        ".admob.xiaomi.com",
+        ".adv.sec.intl.miui.com",
+        ".adv.sec.miui.com",
+        ".misc.in.duokanbox.com",
+        ".mistat.xiaomi.com",
+        ".tjqonline.cn",
+        ".tracking.miui.com",
+        ".ad.hpplay.cn",
+        ".adeng.hpplay.cn",
+        ".kuyun.com",
+        ".umeng.com"
+      ]
+    }
+  ]
+}

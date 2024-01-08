@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "collabora.com",
+        "collabora.org",
+        "collaboraoffice.com",
+        "collabora.co.uk"
+      ],
+      "domain_suffix": [
+        ".collabora.com",
+        ".collabora.org",
+        ".collaboraoffice.com",
+        ".collabora.co.uk"
+      ]
+    }
+  ]
+}

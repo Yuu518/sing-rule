@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "openwrt.org",
+        "lede-project.org"
+      ],
+      "domain_suffix": [
+        ".openwrt.org",
+        ".lede-project.org"
+      ]
+    }
+  ]
+}

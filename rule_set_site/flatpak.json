@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "flathub.org",
+        "flatpak.org"
+      ],
+      "domain_suffix": [
+        ".flathub.org",
+        ".flatpak.org"
+      ]
+    }
+  ]
+}

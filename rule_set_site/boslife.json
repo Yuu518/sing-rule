@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "boslife.biz",
+        "boslife.net"
+      ],
+      "domain_suffix": [
+        ".boslife.biz",
+        ".boslife.net"
+      ]
+    }
+  ]
+}

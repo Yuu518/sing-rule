@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "js-agent.newrelic.com",
+      "domain_suffix": ".js-agent.newrelic.com"
+    }
+  ]
+}

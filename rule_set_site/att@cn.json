@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "att.cn",
+        "attcorp.cn"
+      ],
+      "domain_suffix": [
+        ".att.cn",
+        ".attcorp.cn"
+      ]
+    }
+  ]
+}

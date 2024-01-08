@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "opencollective.com",
+      "domain_suffix": ".opencollective.com"
+    }
+  ]
+}

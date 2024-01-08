@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "remirepo.net",
+      "domain_suffix": ".remirepo.net"
+    }
+  ]
+}

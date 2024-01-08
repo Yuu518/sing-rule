@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "geekpark.net",
+      "domain_suffix": ".geekpark.net"
+    }
+  ]
+}

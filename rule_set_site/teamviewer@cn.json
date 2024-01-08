@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "teamviewer.cn",
+      "domain_suffix": ".teamviewer.cn"
+    }
+  ]
+}

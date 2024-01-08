@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "crl.pki.goog",
+        "ocsp.pki.goog",
+        "pki-goog.l.google.com",
+        "dcocsp.cn",
+        "digicert.cn",
+        "oemssl.cn",
+        "oemssl.cn.cdn.cloudflare.net",
+        "sectigochina.com",
+        "trust-provider.cn",
+        "sslcom.cn",
+        "certs-lb.apple.com.akadns.net",
+        "certs.apple.com",
+        "crl-lb.apple.com.akadns.net",
+        "crl.apple.com",
+        "ocsp-lb.apple.com.akadns.net",
+        "ocsp.apple.com",
+        "ocsp2-lb.apple.com.akadns.net",
+        "ocsp2.apple.com",
+        "yahoo.cn",
+        "yahoo.com.cn",
+        "crl.alphassl.com",
+        "crl2.alphassl.com",
+        "global.prd.cdn.globalsign.com",
+        "ocsp.globalsign.com",
+        "ocsp2.globalsign.com",
+        "secure.globalsign.com",
+        "secure2.alphassl.com",
+        "www.microsoft.com"
+      ],
+      "domain_suffix": [
+        ".dcocsp.cn",
+        ".digicert.cn",
+        ".oemssl.cn",
+        ".oemssl.cn.cdn.cloudflare.net",
+        ".sectigochina.com",
+        ".trust-provider.cn",
+        ".sslcom.cn",
+        ".yahoo.cn",
+        ".yahoo.com.cn"
+      ]
+    }
+  ]
+}

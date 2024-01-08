@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "mi-img.com",
+        "mi.com",
+        "mifile.cn",
+        "miui.com",
+        "miwifi.com",
+        "xiaomi.cn",
+        "xiaomi.com",
+        "xiaomi.net",
+        "xiaomiev.com",
+        "xiaomiyoupin.com",
+        "saxyit.com"
+      ],
+      "domain_suffix": [
+        ".mi-img.com",
+        ".mi.com",
+        ".mifile.cn",
+        ".miui.com",
+        ".miwifi.com",
+        ".xiaomi.cn",
+        ".xiaomi.com",
+        ".xiaomi.net",
+        ".xiaomiev.com",
+        ".xiaomiyoupin.com",
+        ".saxyit.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "gravatar.com",
+      "domain_suffix": ".gravatar.com"
+    }
+  ]
+}

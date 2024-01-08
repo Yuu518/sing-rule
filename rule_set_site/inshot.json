@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "inshot.cc",
+        "inshot.com",
+        "inshotapp.com"
+      ],
+      "domain_suffix": [
+        ".inshot.cc",
+        ".inshot.com",
+        ".inshotapp.com"
+      ]
+    }
+  ]
+}

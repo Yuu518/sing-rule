@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "vaptcha.com",
+        "vaptcha.net"
+      ],
+      "domain_suffix": [
+        ".vaptcha.com",
+        ".vaptcha.net"
+      ]
+    }
+  ]
+}

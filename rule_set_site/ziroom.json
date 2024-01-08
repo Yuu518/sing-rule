@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "ziroom.com",
+        "ziroomapartment.com"
+      ],
+      "domain_suffix": [
+        ".ziroom.com",
+        ".ziroomapartment.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "docin.com",
+        "douding.cn"
+      ],
+      "domain_suffix": [
+        ".docin.com",
+        ".douding.cn"
+      ]
+    }
+  ]
+}

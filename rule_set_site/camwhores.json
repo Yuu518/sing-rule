@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "camwhores.tv",
+        "camwhores.video"
+      ],
+      "domain_suffix": [
+        ".camwhores.tv",
+        ".camwhores.video"
+      ]
+    }
+  ]
+}

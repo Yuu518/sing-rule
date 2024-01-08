@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "realitykings.com",
+        "rk.com"
+      ],
+      "domain_suffix": [
+        ".realitykings.com",
+        ".rk.com"
+      ]
+    }
+  ]
+}

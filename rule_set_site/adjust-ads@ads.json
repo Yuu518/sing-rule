@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "adjust.com",
+      "domain_suffix": ".adjust.com"
+    }
+  ]
+}

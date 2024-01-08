@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "ltn.com.tw",
+        "yes123.com.tw"
+      ],
+      "domain_suffix": [
+        ".ltn.com.tw",
+        ".yes123.com.tw"
+      ]
+    }
+  ]
+}

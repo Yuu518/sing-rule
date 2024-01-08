@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "javbus.com",
+        "javbus22.com",
+        "javcdn.cc"
+      ],
+      "domain_suffix": [
+        ".javbus.com",
+        ".javbus22.com",
+        ".javcdn.cc"
+      ]
+    }
+  ]
+}

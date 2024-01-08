@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "larksuite.com",
+        "larksuitecdn.com"
+      ],
+      "domain_suffix": [
+        ".larksuite.com",
+        ".larksuitecdn.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "setn.com",
+        "settv.com.tw"
+      ],
+      "domain_suffix": [
+        ".setn.com",
+        ".settv.com.tw"
+      ]
+    }
+  ]
+}

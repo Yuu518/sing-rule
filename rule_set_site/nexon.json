@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "nexon.com",
+        "nexon.co.jp",
+        "nexoncdn.co.kr"
+      ],
+      "domain_suffix": [
+        ".nexon.com",
+        ".nexon.co.jp",
+        ".nexoncdn.co.kr"
+      ]
+    }
+  ]
+}

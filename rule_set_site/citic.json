@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "citicifh.com",
+        "cncbinternational.com",
+        "citicbank.com",
+        "citiccapital.com",
+        "citiciam.com",
+        "chinaamc.com",
+        "ecitic.com",
+        "csci.hk",
+        "citicsf.com",
+        "clsa.com",
+        "csc108.com",
+        "citic-prudential.com.cn",
+        "citics.com.hk",
+        "citicprufunds.com.cn"
+      ],
+      "domain_suffix": [
+        ".citic",
+        ".citicifh.com",
+        ".cncbinternational.com",
+        ".citicbank.com",
+        ".citiccapital.com",
+        ".citiciam.com",
+        ".chinaamc.com",
+        ".ecitic.com",
+        ".csci.hk",
+        ".citicsf.com",
+        ".clsa.com",
+        ".csc108.com",
+        ".citic-prudential.com.cn",
+        ".citics.com.hk",
+        ".citicprufunds.com.cn"
+      ]
+    }
+  ]
+}

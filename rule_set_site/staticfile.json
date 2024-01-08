@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "staticfile.org",
+      "domain_suffix": ".staticfile.org"
+    }
+  ]
+}

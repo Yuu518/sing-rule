@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "bluearchive-cn.com",
+      "domain_suffix": ".bluearchive-cn.com"
+    }
+  ]
+}

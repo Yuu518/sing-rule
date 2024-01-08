@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "sekai.colorfulpalette.org",
+      "domain_suffix": ".sekai.colorfulpalette.org"
+    }
+  ]
+}

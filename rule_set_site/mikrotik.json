@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "mikrotik.com",
+        "mt.lv",
+        "mynetname.net",
+        "routerboard.com"
+      ],
+      "domain_suffix": [
+        ".mikrotik.com",
+        ".mt.lv",
+        ".mynetname.net",
+        ".routerboard.com"
+      ]
+    }
+  ]
+}

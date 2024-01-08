@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "lkcoffee.com",
+        "luckincoffeecdn.com",
+        "yyds.co"
+      ],
+      "domain_suffix": [
+        ".lkcoffee.com",
+        ".luckincoffeecdn.com",
+        ".yyds.co"
+      ]
+    }
+  ]
+}

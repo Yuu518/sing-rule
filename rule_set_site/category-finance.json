@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "fxcorporate.com",
+        "mql5.com",
+        "tradingview.com",
+        "transferwise.com",
+        "wise.com"
+      ],
+      "domain_suffix": [
+        ".fxcorporate.com",
+        ".mql5.com",
+        ".tradingview.com",
+        ".transferwise.com",
+        ".wise.com"
+      ]
+    }
+  ]
+}

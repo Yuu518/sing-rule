@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "hacpai.com",
+        "ld246.com"
+      ],
+      "domain_suffix": [
+        ".hacpai.com",
+        ".ld246.com"
+      ]
+    }
+  ]
+}

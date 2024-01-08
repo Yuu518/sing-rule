@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "codeforces.com",
+      "domain_suffix": ".codeforces.com"
+    }
+  ]
+}

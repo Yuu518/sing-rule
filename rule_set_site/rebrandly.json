@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "rb.gy",
+        "rebrandly.com"
+      ],
+      "domain_suffix": [
+        ".rb.gy",
+        ".rebrandly.com"
+      ]
+    }
+  ]
+}

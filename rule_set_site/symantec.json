@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "managedpki.com",
+        "symantec.com",
+        "symcb.com",
+        "symcd.com"
+      ],
+      "domain_suffix": [
+        ".managedpki.com",
+        ".symantec.com",
+        ".symcb.com",
+        ".symcd.com"
+      ]
+    }
+  ]
+}

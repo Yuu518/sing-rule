@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "microsoftnews.cn",
+        "msn.cn"
+      ],
+      "domain_suffix": [
+        ".microsoftnews.cn",
+        ".msn.cn"
+      ]
+    }
+  ]
+}

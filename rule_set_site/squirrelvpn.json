@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "squirrelvpn.com",
+        "squirrelgroup.net"
+      ],
+      "domain_suffix": [
+        ".squirrelvpn.com",
+        ".squirrelgroup.net"
+      ]
+    }
+  ]
+}

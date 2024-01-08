@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "51nod.com",
+      "domain_suffix": ".51nod.com"
+    }
+  ]
+}

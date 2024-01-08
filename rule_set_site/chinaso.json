@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "chinaso.com",
+        "pg0.cn"
+      ],
+      "domain_suffix": [
+        ".chinaso.com",
+        ".pg0.cn"
+      ]
+    }
+  ]
+}

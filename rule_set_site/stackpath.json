@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "stackpath.com",
+        "stackpath.dev"
+      ],
+      "domain_suffix": [
+        ".stackpath.com",
+        ".stackpath.dev"
+      ]
+    }
+  ]
+}

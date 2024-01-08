@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "bds.snssdk.com",
+        "ctobsnssdk.com",
+        "dig.bdurl.net",
+        "extlog.snssdk.com",
+        "i.snssdk.com",
+        "is.snssdk.com",
+        "mcs.snssdk.com",
+        "pangolin.snssdk.com",
+        "pangolin-sdk-toutiao.com",
+        "pglstatp-toutiao.com",
+        "sf3-ttcdn-tos.pstatp.com"
+      ],
+      "domain_suffix": [
+        ".bds.snssdk.com",
+        ".ctobsnssdk.com",
+        ".dig.bdurl.net",
+        ".extlog.snssdk.com",
+        ".i.snssdk.com",
+        ".is.snssdk.com",
+        ".mcs.snssdk.com",
+        ".pangolin.snssdk.com",
+        ".pangolin-sdk-toutiao.com",
+        ".pglstatp-toutiao.com",
+        ".sf3-ttcdn-tos.pstatp.com"
+      ]
+    }
+  ]
+}

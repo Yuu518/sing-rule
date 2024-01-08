@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "launchpad.net",
+        "launchpadlibrarian.com",
+        "launchpadlibrarian.net",
+        "launchpadlibrarian.org"
+      ],
+      "domain_suffix": [
+        ".launchpad.net",
+        ".launchpadlibrarian.com",
+        ".launchpadlibrarian.net",
+        ".launchpadlibrarian.org"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "familymart.com.cn",
+      "domain_suffix": ".familymart.com.cn"
+    }
+  ]
+}

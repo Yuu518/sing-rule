@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "bit.ly",
+        "bitly.com",
+        "bitly.is"
+      ],
+      "domain_suffix": [
+        ".bit.ly",
+        ".bitly.com",
+        ".bitly.is"
+      ]
+    }
+  ]
+}

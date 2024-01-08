@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "acfun.cn",
+        "aixifan.com",
+        "apilog-web.acfun.cn"
+      ],
+      "domain_suffix": [
+        ".acfun.cn",
+        ".aixifan.com"
+      ]
+    }
+  ]
+}

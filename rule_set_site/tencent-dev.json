@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "openmidas.com",
+        "qq.design",
+        "qqgamedesign.com",
+        "tencent.design",
+        "tjstats.com",
+        "wegamedeveloper.com",
+        "weixinbridge.com",
+        "weui.io"
+      ],
+      "domain_suffix": [
+        ".openmidas.com",
+        ".qq.design",
+        ".qqgamedesign.com",
+        ".tencent.design",
+        ".tjstats.com",
+        ".wegamedeveloper.com",
+        ".weixinbridge.com",
+        ".weui.io"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "dns.sb",
+        "ip.sb",
+        "loli.net",
+        "sb.sb",
+        "sm.ms",
+        "u.nu",
+        "www.sb"
+      ],
+      "domain_suffix": [
+        ".dns.sb",
+        ".ip.sb",
+        ".loli.net",
+        ".sb.sb",
+        ".sm.ms",
+        ".u.nu",
+        ".www.sb"
+      ]
+    }
+  ]
+}

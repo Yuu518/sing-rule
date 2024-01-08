@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "apress.com",
+        "springer.com",
+        "springerlink.com",
+        "springernature.com",
+        "wkap.nl"
+      ],
+      "domain_suffix": [
+        ".apress.com",
+        ".springer.com",
+        ".springerlink.com",
+        ".springernature.com",
+        ".wkap.nl"
+      ]
+    }
+  ]
+}

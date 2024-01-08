@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "tuta.io",
+        "tutanota.com"
+      ],
+      "domain_suffix": [
+        ".tuta.io",
+        ".tutanota.com"
+      ]
+    }
+  ]
+}

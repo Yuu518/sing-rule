@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "amazonprimevideo.cn",
+        "amazonprimevideo.com.cn"
+      ],
+      "domain_suffix": [
+        ".amazonprimevideo.cn",
+        ".amazonprimevideo.com.cn"
+      ]
+    }
+  ]
+}

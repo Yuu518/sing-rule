@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "ldmnq.com",
+      "domain_suffix": ".ldmnq.com"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "sourcehut.org",
+        "sr.ht"
+      ],
+      "domain_suffix": [
+        ".sourcehut.org",
+        ".sr.ht"
+      ]
+    }
+  ]
+}

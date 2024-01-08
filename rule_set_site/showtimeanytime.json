@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "showtimeanytime.com",
+        "showtime.com"
+      ],
+      "domain_suffix": [
+        ".showtimeanytime.com",
+        ".showtime.com"
+      ]
+    }
+  ]
+}

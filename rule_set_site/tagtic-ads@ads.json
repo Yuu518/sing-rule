@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "g1.tagtic.cn",
+        "xy-log.tagtic.cn"
+      ],
+      "domain_suffix": [
+        ".g1.tagtic.cn",
+        ".xy-log.tagtic.cn"
+      ]
+    }
+  ]
+}

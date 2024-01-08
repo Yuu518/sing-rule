@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "archive-it.org",
+        "archive.org",
+        "archive.ph",
+        "archive.today",
+        "openlibrary.org"
+      ],
+      "domain_suffix": [
+        ".archive-it.org",
+        ".archive.org",
+        ".archive.ph",
+        ".archive.today",
+        ".openlibrary.org"
+      ]
+    }
+  ]
+}

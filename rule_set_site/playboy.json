@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "playboy.com",
+        "playboy.com.uk"
+      ],
+      "domain_suffix": [
+        ".playboy.com",
+        ".playboy.com.uk"
+      ]
+    }
+  ]
+}

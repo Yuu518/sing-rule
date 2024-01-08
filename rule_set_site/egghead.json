@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "egghead.io",
+      "domain_suffix": ".egghead.io"
+    }
+  ]
+}

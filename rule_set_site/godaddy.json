@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "godaddy.com",
+        "x.co"
+      ],
+      "domain_suffix": [
+        ".godaddy",
+        ".godaddy.com",
+        ".x.co"
+      ]
+    }
+  ]
+}

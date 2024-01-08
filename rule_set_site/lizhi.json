@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "lizhi.fm",
+        "lizhifm.com"
+      ],
+      "domain_suffix": [
+        ".lizhi.fm",
+        ".lizhifm.com"
+      ]
+    }
+  ]
+}

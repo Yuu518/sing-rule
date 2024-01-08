@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "uc.cn",
+        "ucweb.com"
+      ],
+      "domain_suffix": [
+        ".uc.cn",
+        ".ucweb.com"
+      ]
+    }
+  ]
+}

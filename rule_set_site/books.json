@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "book.com.tw",
+        "books.com.tw"
+      ],
+      "domain_suffix": [
+        ".book.com.tw",
+        ".books.com.tw"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "ruby-china.org",
+        "rubyconfchina.org"
+      ],
+      "domain_suffix": [
+        ".ruby-china.org",
+        ".rubyconfchina.org"
+      ]
+    }
+  ]
+}

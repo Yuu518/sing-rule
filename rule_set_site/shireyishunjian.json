@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "shireyishunjian.com",
+        "yingpianqu.com"
+      ],
+      "domain_suffix": [
+        ".shireyishunjian.com",
+        ".yingpianqu.com"
+      ]
+    }
+  ]
+}

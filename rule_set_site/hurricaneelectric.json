@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "he.net",
+      "domain_suffix": ".he.net"
+    }
+  ]
+}

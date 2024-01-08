@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "hubblephone.com",
+        "tsi.ai"
+      ],
+      "domain_suffix": [
+        ".hubblephone.com",
+        ".tsi.ai"
+      ]
+    }
+  ]
+}

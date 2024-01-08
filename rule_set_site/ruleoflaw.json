@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "rolfoundation.org",
+        "rolsociety.org"
+      ],
+      "domain_suffix": [
+        ".rolfoundation.org",
+        ".rolsociety.org"
+      ]
+    }
+  ]
+}

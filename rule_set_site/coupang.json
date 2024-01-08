@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "coupang.com",
+        "coupangcdn.com"
+      ],
+      "domain_suffix": [
+        ".coupang.com",
+        ".coupangcdn.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "kubakuba.global",
+        "kubakuba1996.com"
+      ],
+      "domain_suffix": [
+        ".kubakuba.global",
+        ".kubakuba1996.com"
+      ]
+    }
+  ]
+}

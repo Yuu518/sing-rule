@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "jinshuju.net",
+        "jinshujucdn.com"
+      ],
+      "domain_suffix": [
+        ".jinshuju.net",
+        ".jinshujucdn.com"
+      ]
+    }
+  ]
+}

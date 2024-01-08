@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "drbl.in",
+        "dribbble.com"
+      ],
+      "domain_suffix": [
+        ".drbl.in",
+        ".dribbble.com"
+      ]
+    }
+  ]
+}

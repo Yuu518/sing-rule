@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "apple-icloud.cn",
+        "appleicloud.cn",
+        "icloud-apple.cn",
+        "icloud.com.cn",
+        "icloud.net.cn",
+        "icloudapple.cn"
+      ],
+      "domain_suffix": [
+        ".apple-icloud.cn",
+        ".appleicloud.cn",
+        ".icloud-apple.cn",
+        ".icloud.com.cn",
+        ".icloud.net.cn",
+        ".icloudapple.cn"
+      ]
+    }
+  ]
+}

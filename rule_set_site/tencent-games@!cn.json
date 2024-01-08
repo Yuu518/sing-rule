@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "supercell.com",
+      "domain_suffix": ".supercell.com"
+    }
+  ]
+}

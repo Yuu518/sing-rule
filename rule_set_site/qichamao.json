@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "qichamao.com",
+      "domain_suffix": ".qichamao.com"
+    }
+  ]
+}

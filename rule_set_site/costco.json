@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "costco-static.com",
+        "costco.com",
+        "costcobusinessdelivery.com"
+      ],
+      "domain_suffix": [
+        ".costco-static.com",
+        ".costco.com",
+        ".costcobusinessdelivery.com"
+      ]
+    }
+  ]
+}

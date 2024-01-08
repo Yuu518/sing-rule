@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "gate.io",
+        "gatedata.org",
+        "gateimg.com",
+        "gateio.live",
+        "gateio.services"
+      ],
+      "domain_suffix": [
+        ".gate.io",
+        ".gatedata.org",
+        ".gateimg.com",
+        ".gateio.live",
+        ".gateio.services"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "o33249.ingest.sentry.io",
+        "openaicom.imgix.net",
+        "unityads.unity3d.com",
+        "unityads.unitychina.cn"
+      ],
+      "domain_suffix": [
+        ".unityads.unity3d.com",
+        ".unityads.unitychina.cn"
+      ]
+    }
+  ]
+}

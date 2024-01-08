@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "ipip.net",
+        "myip.la"
+      ],
+      "domain_suffix": [
+        ".ipip.net",
+        ".myip.la"
+      ]
+    }
+  ]
+}

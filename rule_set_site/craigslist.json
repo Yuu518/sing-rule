@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "craigslist.org",
+      "domain_suffix": ".craigslist.org"
+    }
+  ]
+}

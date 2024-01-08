@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "yamibo.com",
+      "domain_suffix": ".yamibo.com"
+    }
+  ]
+}

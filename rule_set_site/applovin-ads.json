@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "applovin.com",
+        "applvn.com"
+      ],
+      "domain_suffix": [
+        ".applovin.com",
+        ".applvn.com"
+      ]
+    }
+  ]
+}

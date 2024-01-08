@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "realtype.jp",
+        "realtype.co.jp"
+      ],
+      "domain_suffix": [
+        ".realtype.jp",
+        ".realtype.co.jp"
+      ]
+    }
+  ]
+}

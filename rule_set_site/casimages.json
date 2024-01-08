@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "casimages.com",
+      "domain_suffix": ".casimages.com"
+    }
+  ]
+}

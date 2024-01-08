@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "canon.cn",
+        "canon.com.cn"
+      ],
+      "domain_suffix": [
+        ".canon.cn",
+        ".canon.com.cn"
+      ]
+    }
+  ]
+}

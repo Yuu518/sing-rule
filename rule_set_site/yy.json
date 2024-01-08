@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "yy.com",
+        "yystatic.com",
+        "duowan.com",
+        "dwstatic.com"
+      ],
+      "domain_suffix": [
+        ".yy.com",
+        ".yystatic.com",
+        ".duowan.com",
+        ".dwstatic.com"
+      ]
+    }
+  ]
+}

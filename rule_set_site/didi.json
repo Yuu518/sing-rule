@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "didi-food.com",
+        "didiaustralia.blog",
+        "didichuxing.com",
+        "didiglobal.com",
+        "didistatic.com",
+        "xiaojukeji.com",
+        "didimobility.co.jp"
+      ],
+      "domain_suffix": [
+        ".didi-food.com",
+        ".didiaustralia.blog",
+        ".didichuxing.com",
+        ".didiglobal.com",
+        ".didistatic.com",
+        ".xiaojukeji.com",
+        ".didimobility.co.jp"
+      ]
+    }
+  ]
+}

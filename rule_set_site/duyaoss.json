@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "duyaoss.com",
+        "duyaossr.com"
+      ],
+      "domain_suffix": [
+        ".duyaoss.com",
+        ".duyaossr.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "spankbang.com",
+        "spankbang.party",
+        "sb-cd.com"
+      ],
+      "domain_suffix": [
+        ".spankbang.com",
+        ".spankbang.party",
+        ".sb-cd.com"
+      ]
+    }
+  ]
+}

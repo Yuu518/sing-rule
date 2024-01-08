@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "fzdm.com",
+        "fffdm.com"
+      ],
+      "domain_suffix": [
+        ".fzdm.com",
+        ".fffdm.com"
+      ]
+    }
+  ]
+}

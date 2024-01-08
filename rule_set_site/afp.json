@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "afp.com",
+        "afpforum.com"
+      ],
+      "domain_suffix": [
+        ".afp.com",
+        ".afpforum.com"
+      ]
+    }
+  ]
+}

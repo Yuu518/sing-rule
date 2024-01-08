@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "boringcompany.com",
+      "domain_suffix": ".boringcompany.com"
+    }
+  ]
+}

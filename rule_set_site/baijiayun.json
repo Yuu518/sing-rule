@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "baijiayun.com",
+      "domain_suffix": ".baijiayun.com"
+    }
+  ]
+}

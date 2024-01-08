@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "gotokeep.com",
+        "keepcdn.com"
+      ],
+      "domain_suffix": [
+        ".gotokeep.com",
+        ".keepcdn.com"
+      ]
+    }
+  ]
+}

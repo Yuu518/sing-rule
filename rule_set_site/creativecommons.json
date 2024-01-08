@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "ccstatic.org",
+        "creativecommons.org",
+        "creativecommons.engineering",
+        "licensebuttons.net"
+      ],
+      "domain_suffix": [
+        ".ccstatic.org",
+        ".creativecommons.org",
+        ".creativecommons.engineering",
+        ".licensebuttons.net"
+      ]
+    }
+  ]
+}

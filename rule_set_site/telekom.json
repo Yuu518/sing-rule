@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "telekom.com",
+        "telekom.de",
+        "telesec.de"
+      ],
+      "domain_suffix": [
+        ".telekom.com",
+        ".telekom.de",
+        ".telesec.de"
+      ]
+    }
+  ]
+}

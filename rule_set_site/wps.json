@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "wps.cn",
+        "wps.com",
+        "51dzt.com",
+        "iciba.com",
+        "docer.com",
+        "kdocs.cn",
+        "papocket.com",
+        "wpspdf.cn"
+      ],
+      "domain_suffix": [
+        ".wps.cn",
+        ".wps.com",
+        ".51dzt.com",
+        ".iciba.com",
+        ".docer.com",
+        ".kdocs.cn",
+        ".papocket.com",
+        ".wpspdf.cn"
+      ]
+    }
+  ]
+}

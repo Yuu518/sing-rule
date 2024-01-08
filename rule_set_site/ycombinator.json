@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "startupschool.org",
+        "ycombinator.com"
+      ],
+      "domain_suffix": [
+        ".startupschool.org",
+        ".ycombinator.com"
+      ]
+    }
+  ]
+}

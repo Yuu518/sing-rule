@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "enfinitas.com.cn",
+        "meadjohnson.com.cn"
+      ],
+      "domain_suffix": [
+        ".enfinitas.com.cn",
+        ".meadjohnson.com.cn"
+      ]
+    }
+  ]
+}

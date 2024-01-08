@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "scala-lang.org",
+        "scala-sbt.org"
+      ],
+      "domain_suffix": [
+        ".scala-lang.org",
+        ".scala-sbt.org"
+      ]
+    }
+  ]
+}

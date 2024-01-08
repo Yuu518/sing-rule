@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "gendai.net",
+        "nikkan-gendai.com"
+      ],
+      "domain_suffix": [
+        ".gendai.net",
+        ".nikkan-gendai.com"
+      ]
+    }
+  ]
+}

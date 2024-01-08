@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "poe.com",
+        "poecdn.net",
+        "qr.ae",
+        "quora.com",
+        "quoracdn.net"
+      ],
+      "domain_suffix": [
+        ".poe.com",
+        ".poecdn.net",
+        ".qr.ae",
+        ".quora.com",
+        ".quoracdn.net"
+      ]
+    }
+  ]
+}

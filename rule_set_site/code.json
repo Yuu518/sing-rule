@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "code.org",
+      "domain_suffix": ".code.org"
+    }
+  ]
+}

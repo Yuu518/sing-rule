@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "pastebin.com",
+      "domain_suffix": ".pastebin.com"
+    }
+  ]
+}

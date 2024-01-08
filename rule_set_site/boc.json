@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "bochk.com",
+        "bocigroup.com",
+        "bankofchina.com",
+        "bocfullertonbank.com",
+        "bocamchina.com",
+        "bocaviation.com",
+        "boccfc.cc",
+        "boc.cn",
+        "bocgi.com",
+        "bank-of-china.com",
+        "boccfc.cn",
+        "bocichina.cn",
+        "bocichina.com",
+        "bocim.com",
+        "bocifunds.cn",
+        "bocifunds.com",
+        "bocgins.com",
+        "bocifunds.com.cn",
+        "bocichina.com.cn",
+        "bocservices.com.cn"
+      ],
+      "domain_suffix": [
+        ".bochk.com",
+        ".bocigroup.com",
+        ".bankofchina.com",
+        ".bocfullertonbank.com",
+        ".bocamchina.com",
+        ".bocaviation.com",
+        ".boccfc.cc",
+        ".boc.cn",
+        ".bocgi.com",
+        ".bank-of-china.com",
+        ".boccfc.cn",
+        ".bocichina.cn",
+        ".bocichina.com",
+        ".bocim.com",
+        ".bocifunds.cn",
+        ".bocifunds.com",
+        ".bocgins.com",
+        ".bocifunds.com.cn",
+        ".bocichina.com.cn",
+        ".bocservices.com.cn"
+      ]
+    }
+  ]
+}

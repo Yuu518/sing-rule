@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "blurams.com",
+      "domain_suffix": ".blurams.com"
+    }
+  ]
+}

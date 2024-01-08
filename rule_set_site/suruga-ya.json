@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "suruga-ya.com",
+        "suruga-ya.jp"
+      ],
+      "domain_suffix": [
+        ".suruga-ya.com",
+        ".suruga-ya.jp"
+      ]
+    }
+  ]
+}

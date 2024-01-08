@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "canonical.com",
+        "launchpad.net",
+        "launchpadlibrarian.com",
+        "launchpadlibrarian.net",
+        "launchpadlibrarian.org",
+        "snapcraft.io",
+        "snapstore.io",
+        "ubuntu.com",
+        "ubuntu.net",
+        "ubuntuforums.org",
+        "ubuntu-touch.io"
+      ],
+      "domain_suffix": [
+        ".canonical.com",
+        ".launchpad.net",
+        ".launchpadlibrarian.com",
+        ".launchpadlibrarian.net",
+        ".launchpadlibrarian.org",
+        ".snapcraft.io",
+        ".snapstore.io",
+        ".ubuntu.com",
+        ".ubuntu.net",
+        ".ubuntuforums.org",
+        ".ubuntu-touch.io"
+      ]
+    }
+  ]
+}

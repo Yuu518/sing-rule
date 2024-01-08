@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "netflix.com.edgesuite.net",
+        "fast.com",
+        "netflix.ca",
+        "netflix.com",
+        "netflix.net",
+        "netflixinvestor.com",
+        "netflixtechblog.com",
+        "nflxext.com",
+        "nflximg.com",
+        "nflximg.net",
+        "nflxsearch.net",
+        "nflxso.net",
+        "nflxvideo.net",
+        "netflixdnstest1.com",
+        "netflixdnstest2.com",
+        "netflixdnstest3.com",
+        "netflixdnstest4.com",
+        "netflixdnstest5.com",
+        "netflixdnstest6.com",
+        "netflixdnstest7.com",
+        "netflixdnstest8.com",
+        "netflixdnstest9.com",
+        "netflixdnstest10.com"
+      ],
+      "domain_suffix": [
+        ".fast.com",
+        ".netflix.ca",
+        ".netflix.com",
+        ".netflix.net",
+        ".netflixinvestor.com",
+        ".netflixtechblog.com",
+        ".nflxext.com",
+        ".nflximg.com",
+        ".nflximg.net",
+        ".nflxsearch.net",
+        ".nflxso.net",
+        ".nflxvideo.net",
+        ".netflixdnstest1.com",
+        ".netflixdnstest2.com",
+        ".netflixdnstest3.com",
+        ".netflixdnstest4.com",
+        ".netflixdnstest5.com",
+        ".netflixdnstest6.com",
+        ".netflixdnstest7.com",
+        ".netflixdnstest8.com",
+        ".netflixdnstest9.com",
+        ".netflixdnstest10.com"
+      ],
+      "domain_regex": [
+        "(^|\\.)dualstack\\.apiproxy-.+\\.amazonaws\\.com$",
+        "(^|\\.)dualstack\\.ichnaea-web-.+\\.amazonaws\\.com$"
+      ]
+    }
+  ]
+}

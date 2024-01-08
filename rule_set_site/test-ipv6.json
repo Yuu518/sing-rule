@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "test-ipv6.com",
+      "domain_suffix": ".test-ipv6.com"
+    }
+  ]
+}

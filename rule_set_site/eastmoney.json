@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "18.cn",
+        "dfcfw.com",
+        "eastmoney.com",
+        "eastmoneyfutures.com",
+        "emsec.hk",
+        "1234567.com.cn",
+        "18.com.cn",
+        "guba.com.cn"
+      ],
+      "domain_suffix": [
+        ".18.cn",
+        ".dfcfw.com",
+        ".eastmoney.com",
+        ".eastmoneyfutures.com",
+        ".emsec.hk",
+        ".1234567.com.cn",
+        ".18.com.cn",
+        ".guba.com.cn"
+      ]
+    }
+  ]
+}

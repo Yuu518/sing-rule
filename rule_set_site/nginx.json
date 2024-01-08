@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "nginx.com",
+        "nginx.org"
+      ],
+      "domain_suffix": [
+        ".nginx.com",
+        ".nginx.org"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "hongkongpost.gov.hk",
+        "ecert.gov.hk"
+      ],
+      "domain_suffix": [
+        ".hongkongpost.gov.hk",
+        ".ecert.gov.hk"
+      ]
+    }
+  ]
+}

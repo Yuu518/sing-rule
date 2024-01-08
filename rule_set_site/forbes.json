@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "forbes.com",
+        "forbesimg.com"
+      ],
+      "domain_suffix": [
+        ".forbes.com",
+        ".forbesimg.com"
+      ]
+    }
+  ]
+}

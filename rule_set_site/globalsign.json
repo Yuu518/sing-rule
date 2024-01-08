@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "globalsign.es",
+        "globalsign-media.com",
+        "globalsign.be",
+        "globalsign.ch",
+        "globalsign.nl",
+        "globalsign.com",
+        "alphassl.com",
+        "globalsign.net",
+        "globalsign.fr",
+        "globalsign.eu",
+        "globalsign.com.au",
+        "globalsign.com.sg",
+        "globalsign.com.hk",
+        "globalsign.com.br",
+        "globalsign.co.uk",
+        "crl.alphassl.com",
+        "crl2.alphassl.com",
+        "global.prd.cdn.globalsign.com",
+        "ocsp.globalsign.com",
+        "ocsp2.globalsign.com",
+        "secure.globalsign.com",
+        "secure2.alphassl.com"
+      ],
+      "domain_suffix": [
+        ".globalsign.es",
+        ".globalsign-media.com",
+        ".globalsign.be",
+        ".globalsign.ch",
+        ".globalsign.nl",
+        ".globalsign.com",
+        ".alphassl.com",
+        ".globalsign.net",
+        ".globalsign.fr",
+        ".globalsign.eu",
+        ".globalsign.com.au",
+        ".globalsign.com.sg",
+        ".globalsign.com.hk",
+        ".globalsign.com.br",
+        ".globalsign.co.uk"
+      ]
+    }
+  ]
+}

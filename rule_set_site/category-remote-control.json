@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "client-teamviewer-com.trafficmanager.net",
+        "teamviewer.com.cdn.cloudflare.net",
+        "anydesk.com",
+        "nomachine.com",
+        "rustdesk.com",
+        "teamviewer.com",
+        "teamviewer.us",
+        "teamviewer.cn"
+      ],
+      "domain_suffix": [
+        ".anydesk.com",
+        ".nomachine.com",
+        ".rustdesk.com",
+        ".teamviewer.com",
+        ".teamviewer.us",
+        ".teamviewer.cn"
+      ]
+    }
+  ]
+}

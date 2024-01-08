@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "gucci.cn",
+      "domain_suffix": ".gucci.cn"
+    }
+  ]
+}

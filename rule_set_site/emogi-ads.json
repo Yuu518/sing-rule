@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "emogi.com",
+      "domain_suffix": ".emogi.com"
+    }
+  ]
+}

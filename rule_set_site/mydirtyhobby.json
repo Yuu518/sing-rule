@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "mydirtyhobby.com",
+        "mdhcdn.com"
+      ],
+      "domain_suffix": [
+        ".mydirtyhobby.com",
+        ".mdhcdn.com"
+      ]
+    }
+  ]
+}

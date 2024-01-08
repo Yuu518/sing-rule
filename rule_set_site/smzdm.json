@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "smzdm.com",
+        "zdmimg.com"
+      ],
+      "domain_suffix": [
+        ".smzdm.com",
+        ".zdmimg.com"
+      ]
+    }
+  ]
+}

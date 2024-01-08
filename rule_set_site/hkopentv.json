@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "hkopentv.com",
+        "fantv.hk"
+      ],
+      "domain_suffix": [
+        ".hkopentv.com",
+        ".fantv.hk"
+      ]
+    }
+  ]
+}

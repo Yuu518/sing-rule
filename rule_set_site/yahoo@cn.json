@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "yahoo.cn",
+        "yahoo.com.cn"
+      ],
+      "domain_suffix": [
+        ".yahoo.cn",
+        ".yahoo.com.cn"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "digitalplayground.com",
+        "digitalplaygroundnetwork.com"
+      ],
+      "domain_suffix": [
+        ".digitalplayground.com",
+        ".digitalplaygroundnetwork.com"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "heydoga.com",
+        "heyzo.com"
+      ],
+      "domain_suffix": [
+        ".heydoga.com",
+        ".heyzo.com"
+      ]
+    }
+  ]
+}

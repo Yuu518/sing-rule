@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "fans66.tw",
+        "fansking.tw"
+      ],
+      "domain_suffix": [
+        ".fans66.tw",
+        ".fansking.tw"
+      ]
+    }
+  ]
+}

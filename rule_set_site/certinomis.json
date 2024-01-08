@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "certinomis.com",
+        "certinomis.fr"
+      ],
+      "domain_suffix": [
+        ".certinomis.com",
+        ".certinomis.fr"
+      ]
+    }
+  ]
+}

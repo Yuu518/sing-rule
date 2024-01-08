@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "bilibili.tv",
+        "biliintl.com"
+      ],
+      "domain_suffix": [
+        ".bilibili.tv",
+        ".biliintl.com"
+      ]
+    }
+  ]
+}

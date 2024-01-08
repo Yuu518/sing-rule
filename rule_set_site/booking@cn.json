@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "booking.cn",
+      "domain_suffix": ".booking.cn"
+    }
+  ]
+}

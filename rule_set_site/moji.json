@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "moji.com",
+        "mojichina.com"
+      ],
+      "domain_suffix": [
+        ".moji.com",
+        ".mojichina.com"
+      ]
+    }
+  ]
+}

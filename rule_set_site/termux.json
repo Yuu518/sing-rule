@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "termux.com",
+        "termux.dev",
+        "termux.org"
+      ],
+      "domain_suffix": [
+        ".termux.com",
+        ".termux.dev",
+        ".termux.org"
+      ]
+    }
+  ]
+}

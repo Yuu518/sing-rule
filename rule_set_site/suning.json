@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "cnsuning.com",
+        "suning.com",
+        "suningcloud.com",
+        "suningestate.com",
+        "suningholdings.com"
+      ],
+      "domain_suffix": [
+        ".cnsuning.com",
+        ".suning.com",
+        ".suningcloud.com",
+        ".suningestate.com",
+        ".suningholdings.com"
+      ]
+    }
+  ]
+}

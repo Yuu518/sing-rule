@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": [
+        "csdl.ac.cn",
+        "iscas.ac.cn",
+        "las.ac.cn"
+      ],
+      "domain_suffix": [
+        ".csdl.ac.cn",
+        ".iscas.ac.cn",
+        ".las.ac.cn"
+      ]
+    }
+  ]
+}

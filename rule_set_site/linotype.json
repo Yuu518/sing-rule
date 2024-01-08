@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain": "linotype.com",
+      "domain_suffix": ".linotype.com"
+    }
+  ]
+}
